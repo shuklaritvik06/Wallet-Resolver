@@ -1,2 +1,43 @@
-node_modules
-.next
+# Next.js build output
+.next/
+out/
+
+# Node.js runtime
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Cache directory for Yarn
+.yarn/cache/
+
+# Optional: Cache directory for npm
+.npm/
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# System files
+.DS_Store
+Thumbs.db
