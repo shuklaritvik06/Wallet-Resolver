@@ -62,9 +62,7 @@ const Index = () => {
     <>
       {/* Navbar */}
       <nav className="fren-nav d-flex">
-        <div>
-          <h3>MENU_</h3>
-        </div>
+        <div></div>
         <div className="d-flex" style={{ marginLeft: "auto" }}>
           <div>
             <button className="btn connect-btn" onClick={connectWeb3}>
@@ -79,7 +77,7 @@ const Index = () => {
             </button>
           </div>
           <div>
-            <Link href="https://twitter.com/asaolu_elijah">
+            <Link href="https://twitter.com/qua_intrelle7">
               <button className="btn tw-btn">TW</button>
             </Link>
           </div>

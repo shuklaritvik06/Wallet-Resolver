@@ -4,17 +4,13 @@ import AddDelegates from "../Delegates/AddDelegates";
 const Homepage = () => {
   return (
     <>
-      <button
-        onClick={() => {
-          alert("Hi");
-        }}
-        style={{ fontSize: 15, width: 100 }}
-        class="primary-btn"
-      >
-        Register
-      </button>
-
-      <AddDelegates/>
+      <div style={{ marginBottom: "50px" }} className="flex">
+        <h1 style={{fontSize:"50px"}}>
+          Wallet
+          <span style={{ color: "#12eeac", marginLeft: "20px" }}>Resolver</span>
+        </h1>
+      </div>
+      <AddDelegates />
     </>
   );
 };

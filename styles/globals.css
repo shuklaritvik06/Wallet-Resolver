@@ -108,13 +108,27 @@ a {
   border-radius: 5px;
 }
 
-.form-adel{
+.form-adel {
   width: 400px;
   padding: 2%;
 }
 
-.submit-btn{
-  
+.submit-btn {
+  background: #12eeac;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 /* media query for mobile devices */
 @media only screen and (max-width: 600px) {
