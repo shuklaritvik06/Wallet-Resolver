@@ -86,6 +86,7 @@ const Index = () => {
       {/* Navbar end */}
 
       <Homepage />
+
       <section className="container d-flex">
         <main>
           <h1 className="main-title">Awesome DApp 🚀</h1>
